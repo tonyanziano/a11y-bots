@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Inspector Bot",
+      "program": "${workspaceFolder}/inspector-bot/index.js",
+      "env": {
+        "msaAppId": "<YOUR MSA APP ID HERE>",
+        "msaAppPw": "<YOUR MSA APP PASSWORD HERE>",
+        "port": "3979",
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Echo Bot",
+      "program": "${workspaceFolder}/echo-bot/app.js",
+      "env": {
+        "port": "3978"
+      }
+    }
+  ]
+}

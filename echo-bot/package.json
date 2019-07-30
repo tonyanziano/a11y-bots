@@ -1,0 +1,16 @@
+{
+  "name": "echobot-es6",
+  "version": "1.0.0",
+  "description": "Bot Builder v4 example showing a simple bot that echos anything you say.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Microsoft",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "^4.1.7",
+    "node-fetch": "^2.6.0",
+    "restify": "^6.3.4"
+  }
+}
